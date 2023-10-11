@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.form{
+    
+    width: 400px;
+    margin:auto;
+   
+
+}
+.background{
+    background-color:#fff;
+    width: 500px;
+    margin: auto;
+}
+.container {
+    background-color: #007bff;
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+   
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"], input[type="email"], input[type="tel"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.gender-label {
+    margin-right: 10px;
+}
+.submit-btn, .reset-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.reset-btn {
+    background-color: #ff0000;
+}
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    z-index: 999;
+}
